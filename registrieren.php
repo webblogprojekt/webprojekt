@@ -9,12 +9,12 @@ session_start();
     <!--<link rel="stylesheet" href="blog.css">--!>
 </head>
 <body>
-
+<h1>Registration</h1>
 <form method="post" action="doregister.php">
 
-        <input type="text" name="username" <!--value="<?php echo $username; ?>"--> placeholder="What's your name?">
-        <input type="email" name="email" <!--value="<?php echo $email; ?>"--> placeholder="What's your E-Mail address?">
-        <input type="password" name="password" placeholder="What's your password">
+        <input type="text" name="username" placeholder="What's your name?"> <br>
+        <input type="email" name="email"  placeholder="What's your E-Mail address?"> <br>
+        <input type="password" name="password" placeholder="What's your password"> <br>
 
         <button type="submit" class="btn" name="reg_user">Register</button>
 
