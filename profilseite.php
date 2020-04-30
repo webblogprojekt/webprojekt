@@ -11,9 +11,6 @@ session_start();
     <h1>Erfolg</h1>
 
     <h2>Your Profilpage</h2>
-    <?php
-    $userid = $_GET['id'];
-    ?>
     Username: <br>
     Age: <br>
     Subject: <br>
