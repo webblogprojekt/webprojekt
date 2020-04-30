@@ -14,7 +14,7 @@ session_start();
     Username: <br>
     Age: <br>
     Subject: <br>
-    Biography: <hr>
+    Biography: <br>
 </body>
 </html>
 
