@@ -14,7 +14,7 @@ $pdo=new PDO('mysql:: host=mars.iuk.hdm-stuttgart.de; dbname=u-ah209', 'ah209', 
 <body>
 <?php
 $h=hash ("sha256", $_POST ["password"]);
-$statement=$pdo->prepare("INSERT INTO users (username, email, password) VALUES (:username, :email, :password)");
+$statement=$pdo->prepare("INSERT INTO users (id, username, email, password) VALUES (:username, :email, :password)");
 $statement->bindParam (":username", $_POST ["username"]);
 $statement->bindParam(":email", $_POST ["email"]);
 $statement->bindParam (":password", $h);
