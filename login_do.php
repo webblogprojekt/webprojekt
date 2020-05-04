@@ -32,7 +32,8 @@ if (!$row){
     die();
 }
 echo "<h1>Yeah, you're in!</h1>";
-//id des Nutzers wird in Session gespeichert$_SESSION["id"] = $row ["id"];
+//id des Nutzers wird in Session gespeichert
+    $_SESSION["id"] = $row ["id"];
 //Rückführunf auf Startseite
 header('location: index.php');
 
